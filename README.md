@@ -254,7 +254,7 @@ This means 87.5% of plates were read PERFECTLY. Every single character correct. 
 Character Accuracy: 94.2%
 ```
 
-This measures individual character correctness. If the model reads "KL07AB1234" as "KL07AB1234" (wrong last digit), sequence accuracy is 0% but character accuracy is 90%.
+This measures individual character correctness. If the model reads "KL07AB1234" as "KL07AB1235" (wrong last digit), sequence accuracy is 0% but character accuracy is 90%.
 
 **Why both matter?**
 - High character accuracy + low sequence accuracy = Almost there, just needs more training
